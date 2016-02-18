@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/login_layout">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="ID Usuario:"
+        android:id="@+id/textView_idUser"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="ID Usuario:"
+        android:id="@+id/textView_nameUser"
+        android:layout_weight="1"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Mensaje:"
+        android:id="@+id/textView_mensaje"
+        android:layout_weight="6"
+        android:padding="5dp" />
+
+</LinearLayout>

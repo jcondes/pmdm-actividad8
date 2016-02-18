@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="350dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.example.casa.actividad6.FragmentMensaje"
+    android:background="#63b69c">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:gravity="bottom|center_horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Manda un mensaje"
+            android:id="@+id/textView_titulo_fragment"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText_fragment"
+            android:layout_weight="3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Enviar a Todos"
+            android:id="@+id/button_enviar"
+            android:background="#63b69c"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Enviar al usuario"
+            android:id="@+id/button_enviar_id"
+            android:background="#63b69c"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Cerrar"
+            android:id="@+id/button_cerrar"
+            android:background="#63b69c"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</FrameLayout>

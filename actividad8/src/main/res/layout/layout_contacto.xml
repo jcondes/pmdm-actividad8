@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/lista_layout">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="ID Usuario:"
+        android:id="@+id/textView_idContacto"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="ID Usuario:"
+        android:id="@+id/textView_nameContacto"
+        android:layout_weight="2"
+        android:padding="5dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
